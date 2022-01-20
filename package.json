@@ -1,5 +1,5 @@
 {
-  "name": "collapsible-panel",
+  "name": "ember-collapsible-panel",
   "version": "1.0.0",
   "description": "An unopinionated, zero-dependency panel and accordion",
   "keywords": [
