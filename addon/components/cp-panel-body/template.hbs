@@ -8,8 +8,12 @@
 
 {{else}}
 
-  {{#if @isOpen}}
+  {{#if (and @isOpen (not @notDestroy))}}
     <div class="cp-Panel-body-inner">
+      {{yield}}
+    </div>
+  {{else if @notDestroy}}
+    <div class={{if @isOpen "cp-Panel-body-inner" "cp-Panel-body-inner-hide"}}>
       {{yield}}
     </div>
   {{/if}}

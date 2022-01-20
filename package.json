@@ -1,26 +1,20 @@
 {
-  "name": "ember-collapsible-panel",
-  "version": "5.0.0",
+  "name": "collapsible-panel",
+  "version": "1.0.0",
   "description": "An unopinionated, zero-dependency panel and accordion",
   "keywords": [
     "ember-addon"
   ],
   "homepage": "https://adopted-ember-addons.github.io/ember-collapsible-panel/",
   "bugs": {
-    "url": "https://github.com/adopted-ember-addons/ember-collapsible-panel/issues"
+    "url": "https://github.com/SandeshJayram/ember-collapsible-panel/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adopted-ember-addons/ember-collapsible-panel.git"
+    "url": "https://github.com/SandeshJayram/ember-collapsible-panel.git"
   },
   "license": "MIT",
-  "author": "TEDconf and contributors",
-  "contributors": [
-    {
-      "name": "Alon Bukai",
-      "email": "alonzorz@gmail.com"
-    }
-  ],
+  "author": "Trakdesk",
   "directories": {
     "doc": "doc",
     "test": "tests"
